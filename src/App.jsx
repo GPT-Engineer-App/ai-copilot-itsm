@@ -4,6 +4,7 @@ import { FaRobot } from "react-icons/fa";
 import Index from "./pages/Index.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import AssetManagement from "./pages/AssetManagement.jsx";
+import IncidentManagement from "./pages/IncidentManagement.jsx";
 import Navigation from "./components/Navigation.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/assets" element={<AssetManagement />} />
+        <Route path="/incidents" element={<IncidentManagement />} />
       </Routes>
       <Box position="fixed" bottom="4" right="4">
         <Button rightIcon={<FaRobot />} colorScheme="purple" variant="solid" />

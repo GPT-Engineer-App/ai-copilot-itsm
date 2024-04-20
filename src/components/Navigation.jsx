@@ -26,6 +26,11 @@ const Navigation = () => {
             Assets
           </Button>
         </Link>
+        <Link to="/incidents">
+          <Button colorScheme="teal" justifyContent="flex-start">
+            Incidents
+          </Button>
+        </Link>
         <Divider orientation="horizontal" />
         <Box p="4">
           <Text fontSize="md">Account</Text>
