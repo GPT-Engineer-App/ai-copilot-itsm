@@ -43,9 +43,6 @@ const Index = () => {
             </Button>
           </Stack>
         </Box>
-        <Button rightIcon={<FaRobot />} colorScheme="purple" variant="solid">
-          Talk to AI Copilot
-        </Button>
       </VStack>
     </Container>
   );
